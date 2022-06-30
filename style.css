@@ -9,7 +9,7 @@
 body
 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     min-height: 100vh;
     background: #434750;
@@ -34,7 +34,10 @@ ul li
 ul li:hover 
 {
     background-color: #33a3ee;
-    transform: translateX(-57px);
+    transform: translateX(-50px);
+}
+ul.two li:hover {
+    transform: translateX(50px);
 }
 ul li::before
 {
@@ -69,11 +72,7 @@ ul li::after
 ul li:hover::after{
     background-color: #2982b9;
 }
-li#gay::after{
-    content: 'ponigon';
-    color: white;
-    
-}
+
 ul li a {
     text-decoration: none;
     color: #999;
@@ -87,8 +86,4 @@ ul li:hover a {
 }
 ul li:last-child::after {
     box-shadow: -120px 120px 20px rgba(0, 0, 0, 0.25);
-}
-section.poni a{
-    color: whitesmoke;
-    
 }
