@@ -9,7 +9,7 @@
 body
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     min-height: 100vh;
     background: #434750;
@@ -34,10 +34,10 @@ ul li
 ul li:hover 
 {
     background-color: #33a3ee;
-    transform: translateX(-50px);
+    transform: translateX(-30px);
 }
 ul.two li:hover {
-    transform: translateX(50px);
+    transform: translateX(30px);
 }
 ul li::before
 {
